@@ -83,6 +83,7 @@ section {
 
 .home__icons {
   font-size: 40px;
+  target: "_blank"
 }
 
 /* Social Media Icons CSS */
