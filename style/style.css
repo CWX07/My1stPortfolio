@@ -1,0 +1,193 @@
+/* General App CSS */
+* {
+  margin: 0;
+}
+
+html {
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* Navigation Bar CSS */
+nav {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(27, 27, 27);
+  min-height: 8vh;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+.nav__logo {
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 7px;
+  color: white;
+}
+
+.nav__links {
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+}
+
+.nav__links a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav__links li {
+  list-style-type: none;
+}
+
+/* General Section CSS */
+section {
+  padding: 90px 32px;
+}
+
+.container {
+  text-align: center;
+  width: 100%;
+}
+/* Home Section CSS */
+.home__section {
+  background-image: url("../img/denise-jans-kIH436UH4-0-unsplash.jpg");
+  height: 700px;
+  background-attachment: fixed;
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.home__section .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home__header {
+  background-color: white;
+  opacity: 0.7;
+  width: 790px;
+}
+
+.home__header h1 {
+  font-size: 100px;
+  padding-bottom: 10px;
+}
+
+.home__icons {
+  font-size: 40px;
+}
+
+/* Social Media Icons CSS */
+.fa {
+  padding: 10px;
+  font-size: 30;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 0%;
+  margin: 20px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa-google {
+  background: #ff1e00;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #fd0303ad;
+  color: white;
+}
+
+/* About Section CSS */
+.profile {
+  border-radius: 50%;
+}
+
+.about__section {
+  background-color: rgb(34, 34, 34);
+  color: white;
+  height: 600px;
+}
+
+.about__section h1 {
+  font-size: 50px;
+  padding-bottom: 75px;
+}
+
+.about__info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about__info p {
+  font-size: 20px;
+  padding-left: 50px;
+}
+
+/* Resume Section CSS */
+.resume__section {
+  background-image: url("../img/olav-ahrens-rotne-MAEbdaFe4ps-unsplash.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  height: 700px;
+}
+
+.resume__section h1 {
+  font-size: 50px;
+}
+
+.resume__education__primary,
+.resume__education__secondary {
+  background-color: white;
+  opacity: 0.85;
+  text-align: left;
+  padding: 10px 10px 10px 30px;
+  margin: 30px;
+}
+
+.resume__education--1,
+.resume__education--2 {
+  display: flex;
+  align-items: center;
+}
+
+/* Contact Section CSS */
+.contact__section {
+  background-color: rgb(34, 34, 34);
+  overflow: hidden;
+  height: 900px;
+}
+
+.contact__section h1 {
+  font-size: 50px;
+  color: white;
+}
